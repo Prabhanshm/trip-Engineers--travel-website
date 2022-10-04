@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/tour.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+   
+<body id="top">
+
+    <header class="header boy" data-header>
+
+        <div class="overlay" data-overlay></div>
+        <div class="container">
+            <div class="header-btn-group">
+                <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="navbar" data-navbar>
+                    <div class="navbar-top">
+                       
+                        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                    </div>
+
+                    <ul class="navbar-list "><a href="#" class="logo">
+                      <img src="./assets/images/logo.png" height="100px" alt="Tourly logo">
+                        <li>
+                            <a href="index.html" class="navbar-link" data-nav-link>home</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="navbar-link" data-nav-link>about</a>
+                        </li>
+                        <li class="nav-item dropdown text-white ">
+                            <a class="nav-link dropdown-toggle navbar-link" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                TOUR
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+      
+                                <li><a class="dropdown-item" href="honeymoon.html">Honeymoon</a></li>
+                                <li><a class="dropdown-item" href="beaches.html">Adventure</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                          <a href="honeymoon.html" class="navbar-link" data-nav-link>Honeymoon</a>
+                      </li>
+                        <li>
+                            <a href="gallery.html" class="navbar-link" data-nav-link>Gallery</a>
+                        </li>
+                        <li>
+                            <a href="contact us.html" class="navbar-link" data-nav-link>contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/masai mera slide.avif" width="1200" height="500" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MASAI MARA</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/southern africa.avif" width="1200" height="500" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>SOUTHERN AFRICA SAFARI</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/sundarban.avif"width="1200" height="500"class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>SUNDARBAN</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+
+    <section>
+        <h2 style="text-align:center; margin: 100px 20px; font-weight: 800;">PLACES TO VISIT </h2>
+    </section>
+
+    <sectionclass="cardee" >
+        <div class="container d-flex align-items-center justify-content-center position-relative flex-wrap">
+            <div class="card d-flex position-relative flex-column ">
+                <div class='imgContainer'>
+                    <img src='./assets/images/masai mera.avif'width="315" height="195">
+                </div>
+                <div class="content">
+                    <h2>MASAI MARA</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh.  Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+                </div>
+            </div>
+            <div class="card d-flex position-relative flex-column">
+                <div class='imgContainer'>
+                    <img src='./assets/images/southern africa 2.avif'width="315" height="195">
+                </div>
+                <div class="content">
+                    <h2>AFRICAN SAFARI</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh.  Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+                </div>
+            </div>
+            <div class="card d-flex position-relative flex-column">
+                <div class='imgContainer'>
+                    <img src='./assets/images/sundarban-2.avif'width="315" height="195">
+                </div>
+                <div class="content">
+                    <h2>SUNDARBAN</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh.  Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="package">
+        
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Packeges</p>
+
+          <h2 class="h2 section-title">Checkout Our Packeges</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/southern africa.avif" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Experience The Great Holiday In The Wild</h3>
+
+                  <p class="card-text">
+                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                    cras, aspernatur.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 2</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">safari</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                   25000
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            
+
+    </section>
+
+
+    <!--footer-->
+    <section>
+        <!-- Footer -->
+        <footer class="bg-dark text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-facebook-f"></i></a>
+
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-twitter"></i></a>
+
+              <!-- Google -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-google"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-linkedin-in"></i></a>
+
+              <!-- Github -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+              <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      <strong>Sign up for our newsletter</strong>
+                    </p>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12">
+                    <!-- Email input -->
+                    <div class="form-outline form-white mb-4">
+                      <input type="email" id="form5Example21" class="form-control" />
+                      <label class="form-label" for="form5Example21">Email address</label>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary mb-4">
+                      Subscribe
+                    </button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                eum harum corrupti dicta, aliquam sequi voluptate quas.
+              </p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Links</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Link 1</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 2</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 3</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 4</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-7 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Links</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Link 1</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 2</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 3</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 4</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </section>
+
+
+
+
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
